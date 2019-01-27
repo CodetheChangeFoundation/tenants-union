@@ -1,0 +1,12 @@
+#main-nav ul {margin: 0; padding: 50px; background-color: #2C3E50;
+	list-style-type: none; list-style-image: none; text-align: right;
+  line-height: 27px; font-size: 18px; font-family: LatoWebBlack;}
+#main-nav li {display: inline; }
+#main-nav ul li a {text-decoration:none;  margin: 4px;
+	padding: 5px 20px 5px 20px; color: white;
+	}
+#main-nav ul li a:hover {text-decoration: underline; text-decoration-color: #9CE9F3;
+    text-underline-position: under;}
+
+#main-nav li.current-menu-item > a {text-decoration: underline; text-decoration-color: #9CE9F3;
+    text-underline-position: under;}

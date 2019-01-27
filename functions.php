@@ -9,6 +9,12 @@ require get_template_directory() . '/inc/cleanup.php';
 require get_template_directory() . '/inc/enqueue.php';
 require get_template_directory() . '/inc/theme-support.php';
 
+function tenants_enqueue_styles() {
+    wp_enqueue_style('style', get_stylesheet_uri());
+    wp_enqueue_style('customcss', get_template_directory_uri() . '/assets/css/startertheme.css', array(), '1.0', 'all');
+    wp_enqueue_script('customjs', get_template_directory_uri() . '/assets/js/startertheme.js', array(), '1.0.0', true);
+}
+
 function bootstrap_enqueue_styles () {
     wp_enqueue_style('bootstrap', get_template_directory_uri() . '/bootstrap/css/bootstrap.min.css');
     $dependencies = array('jquery');

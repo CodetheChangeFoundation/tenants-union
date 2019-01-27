@@ -23,17 +23,6 @@
 
 <body <?php body_class() ?>>
 
-
-  <div class="container nav-margin">
-    <nav id="header-nav" class="navbar navbar-fixed-top" role="navigation">
-      <div class="nav-container">
-        <div class="navbar-header">
-          <div class="header-title"><?php bloginfo('title')?></div>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </div>
-
         <?php /* Primary navigation */
         wp_nav_menu( array(
             'theme_location'    => 'primary',
@@ -45,7 +34,9 @@
             'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
             'walker'            => new WP_Bootstrap_Navwalker(),
         ) );
+
     ?>
+
       </div>
     </nav>
   </div>
