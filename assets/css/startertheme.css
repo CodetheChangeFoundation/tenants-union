@@ -1,16 +1,40 @@
-#bs4navbar ul {margin: 0; padding: 50px; background-color: #2C3E50;
-	list-style-type: none; list-style-image: none; text-align: right;
-  line-height: 27px; font-size: 18px; font-family: LatoWebBlack;}
-#bs4navbar li {display: inline; }
-#bs4navbar ul li a {text-decoration:none;  margin: 4px;
-	padding: 5px 20px 5px 20px; color: white;
+#main-nav ul {
+	margin: 0;
+	padding: 50px;
+	background-color: #2C3E50;
+	list-style-type: none;
+	list-style-image: none;
+	text-align: right;
+  /* line-height: 27px;  */
+	font-size: 18px;
+	font-family: LatoWebBlack;}
+
+#main-nav li {display: inline; }
+
+#main-nav ul li a {
+	text-decoration:none;
+	margin: 4px;
+	padding: 5px 20px 5px 20px;
+	color: white;
 	}
-#bs4navbar ul li.page-menu-item a:hover {text-decoration: underline; text-decoration-color: #9CE9F3;
-    text-underline-position: under;}
 
-#bs4navbar li.current-menu-item.page-menu-item > a {text-decoration: underline; text-decoration-color: #9CE9F3;
-    text-underline-position: under;}
+#main-nav ul li:hover {
+	text-decoration: underline;
+	text-decoration-color: #9CE9F3;
+  text-underline-position: under;}
 
-#bs4navbar li.login-menu-item > a {background-color: #60B4C0; font-size: 16px;}
+#main-nav li > a {
+	text-decoration: underline;
+	text-decoration-color: #9CE9F3;
+	text-underline-position: under;}
 
-#bs4navbar li.home-menu-item > a {color: #FFFFFF; font-weight: 600; font-size: 18px; float: left;}
+#main-nav li > a {
+	background-color: #60B4C0;
+	font-size: 16px;}
+
+#main-nav li > a {
+	color: #FFFFFF;
+	font-weight: 600;
+	font-size: 18px;
+	float: left;
+	text-align: left;}
