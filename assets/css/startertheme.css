@@ -1,40 +1,52 @@
-#main-nav ul {
+/* #main-nav ul {
 	margin: 0;
 	padding: 50px;
-	background-color: #2C3E50;
 	list-style-type: none;
 	list-style-image: none;
 	text-align: right;
-  /* line-height: 27px;  */
 	font-size: 18px;
-	font-family: LatoWebBlack;}
+	font-family: LatoWebBlack;} */
 
-#main-nav li {display: inline; }
 
-#main-nav ul li a {
-	text-decoration:none;
+.bg-primary {
+    background-color: #2C3E50!important;
+}
+
+/* #main-nav li {display: inline; } */
+
+.navbar-light .navbar-nav a.nav-link {
 	margin: 4px;
 	padding: 5px 20px 5px 20px;
-	color: white;
+	color: #FFFFFF;
 	}
 
-#main-nav ul li:hover {
+.navbar-light .navbar-nav a.nav-link:hover {
+	color: white;
 	text-decoration: underline;
 	text-decoration-color: #9CE9F3;
-  text-underline-position: under;}
+  text-underline-position: under;
+}
 
-#main-nav li > a {
+.navbar-light .navbar-nav .active>.nav-link {
+	color: white;
 	text-decoration: underline;
 	text-decoration-color: #9CE9F3;
-	text-underline-position: under;}
+  text-underline-position: under;
+}
 
-#main-nav li > a {
+
+/* #main-nav li > a {
 	background-color: #60B4C0;
-	font-size: 16px;}
+	font-size: 16px;} */
 
-#main-nav li > a {
+a:not([href]):not([tabindex])  {
 	color: #FFFFFF;
 	font-weight: 600;
 	font-size: 18px;
-	float: left;
-	text-align: left;}
+	}
+
+a:not([href]):not([tabindex]):hover  {
+	color: #FFFFFF;
+	font-weight: 600;
+	font-size: 18px;
+	}
