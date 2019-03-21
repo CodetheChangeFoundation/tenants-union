@@ -9,6 +9,7 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
   <head>
+
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,12 +21,14 @@
       <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
     <?php endif ?>
     <?php wp_head() ?>
+      <style><?php include 'style.css';?></style>
   </head>
 
   <div  class="container-fluid p-0">
         <nav class="navbar navbar-expand-md navbar-light bg-primary py-3 sticky-top border-bottom border-white">
           <div class="container">
             <a class="navbar-brand font-weight-bold" >Vancouver <br/> Tenants <br/> Union</a>
+            <a class="navbar-brand"><img src="/wp-content/themes/tenantsunion_theme/assets/images/VTU_Logo.png" class="img-responsive" alt="Logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs4navbar" aria-controls="bs4navbar" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
