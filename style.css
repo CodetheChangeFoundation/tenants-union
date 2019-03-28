@@ -17,6 +17,8 @@ Text Domain: startertheme
   margin: 4px;
   padding: 5px 20px 5px 20px;
   color: #FFFFFF;
+  font-family: Lato;
+  font-size: 18px;
 }
 
 .navbar-light .navbar-nav a.nav-link:hover {
@@ -48,6 +50,14 @@ a:not([href]):not([tabindex]):hover {
   color: #FFFFFF;
   font-weight: 600;
   font-size: 18px;
+}
+
+.navbar-brand {
+  font-family: Montserrat;
+  font-style: SemiBold;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px
 }
 
 
