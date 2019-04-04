@@ -53,3 +53,50 @@ a:not([href]):not([tabindex]):hover  {
 	font-weight: 600;
 	font-size: 18px;
 	}
+/**
+Author: Code the Change Foundation
+Author URI: http://codethechange.ca
+Description: Code the Change scss stylesheet
+**/
+
+/* Variables: For all shared variables to maintain consistency throughout the site */
+$background-color: #2C3E50;
+
+/* Extensions: These are for shared common properties */
+%absolute-position{
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	top: 0%;
+	bottom: 0%;
+}
+
+
+/* Mixins: Create functions that will be reused more than twice in the code */
+
+/* Elements */
+.footer{
+	@extend %absolute-position;
+	width:100%;
+	height:80px;
+	background-color:$background-color;
+}
+
+.flex-container {
+	text-align:center;
+}
+
+.footer .flex-container p{
+color:#F8F9FA;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+line-height: 24px;
+font-size: 16px;
+
+}
+
+.footer .flex-container a{
+text-decoration: none;
+color: white;
+}
