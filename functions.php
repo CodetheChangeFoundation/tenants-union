@@ -10,6 +10,8 @@ require get_template_directory() . '/inc/enqueue.php';
 require get_template_directory() . '/inc/theme-support.php';
 require get_template_directory() . '/bs4navwalker.php';
 
+
+
 function tenants_enqueue_styles() {
     wp_enqueue_style('style', get_stylesheet_uri());
     wp_enqueue_style('customcss', get_template_directory_uri() . '/assets/css/startertheme.css', array(), '1.0', 'all');
@@ -29,5 +31,7 @@ register_nav_menus( array(
 	'primary' => __( 'Primary Menu', 'Primary Navigation' ),
 ) );
 // Register custom navigation walker
+
+require get_template_directory() . '/map.php';
 
 ?>

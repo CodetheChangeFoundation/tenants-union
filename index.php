@@ -17,14 +17,6 @@
   endif;
 ?>
 
-<!-- <div>
-  <?php
-    if(!get_field('enable_content_box')):
-      if(get_field('content_box')): ?>
-        <p><?php echo get_field('content_box') ?></p>
-      <?php endif;
-    endif;
-  ?>
-</div> -->
+
 
 <?php get_footer(); ?>
