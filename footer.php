@@ -13,7 +13,6 @@
 </head>
 
 <body>
-<p>This is a footeri</p>
   <footer class="footer">
     <div class="flex-container">
           <div>

@@ -32,6 +32,6 @@ register_nav_menus( array(
 ) );
 // Register custom navigation walker
 
-require get_template_directory() . '/map.php';
+// require get_template_directory() . '/map.php';
 
 ?>

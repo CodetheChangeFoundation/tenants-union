@@ -5,7 +5,7 @@
  * @package startertheme
  */
  ?>
-
+<?php require_once get_template_directory() . '/map.php'; ?>
 <?php get_header(); ?>
 
 <?php
@@ -16,7 +16,6 @@
     <?php endwhile;
   endif;
 ?>
-
 
 
 <?php get_footer(); ?>
